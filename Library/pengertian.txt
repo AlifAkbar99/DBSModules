@@ -1,0 +1,10 @@
+package = direktori dari sebuah modul
+
+library = koleksi banyaknya modul dan paket
+
+python standard library = jenis library yang terinstall secara otomatis
+
+python external library = kode yang dikembangkan oleh komunitas dalam bentuk paket dan diimpor
+
+PIP = package manager untuk mengunduh, menginstal, dan menghapus
+
