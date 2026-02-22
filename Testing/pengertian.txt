@@ -1,0 +1,11 @@
+Integration testing = menguji suatu sistem sebagai kesatuan.
+
+Unit testing = pengujian yang lebih spesifik dan fokus terhadap bagian-bagian kecil.
+
+Unit test = proses pengajuan perangkat lunak yang memastikan setiap unit dari program teruji.
+
+Library unittest dibagi menjadi 3:
+    - Text Fixture = mempresentasikan persiapan yang dibutuhkan pada pengujian dan cleanup.
+             contoh: menyiapkan basis data, pengujian, aktifkan server.
+    - Text Case = mengecek sejumlah respons dari sebagian masukan.
+    - Test Suite = koleksi dari kasus-kasus pengujian.

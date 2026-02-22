@@ -1,0 +1,33 @@
+PEP atau Python Enhancement Proposals merupakan panduan yang telah menjadi acuan untuk perkembangan python.
+
+Lint = proses pengecekan kode atas kemungkinan terjadi error, termasuk pengecekan kesesuaian pada gaya penulisan
+       PEP8.
+       fungsi lint = meminimalkan kode ketika error.
+       Ada 3 jenis aplikasi linter:
+            1.Pycodestyle 
+              aplikasi opensource (MIT) untuk membantu mengecek kode terkait gaya kode PEP8
+              [pip install pycodestyle]
+            2.Pylint
+              aplikasi opensource (GPL V2) untuk analisis kode python. mengecek dan memaksakan standar penulisan.
+              [pip install pylint]
+            3.Flake8
+              aplikasi opensource (MIT) membungkus semua aplikasi termasuk diatas.
+              [pip install flake8]
+
+Format kode
+    3 Jenis aplikasi memformat kode:
+        1.black = opensource (MIT) untuk mendapatkan gambaran.
+          [pip install black]
+        2.YAPF = opensource dari Google Apache.
+          [pip install yapf]
+        3.autopep8 = opensource (MIT) untuk memformat kode.
+          [pip install autopep8] 
+
+Trailing commas = statement ini wajib saat kita membuat variable tipe tuple dengan satu elemen.
+
+Anotasi fungsi = fitur yang memungkinkan untuk menambahkan informasi tentang parameter dan return value.
+
+Overriding = 
+        contoh:
+        cariJalan(). bukan jalan()
+        

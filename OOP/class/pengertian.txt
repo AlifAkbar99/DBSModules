@@ -1,0 +1,22 @@
+Class constructor = fungsi khusus dalam python untuk menentukan nilai awal atau kondisi awal
+                    dari suatu kelas.
+
+Atribut kelas     = jenis atribut yang secara otomatis terdefinisi dan menjadi bawaan kelas
+                    ketika instance.
+
+"__init__"        = fungsi khusus untuk menjadi konstruktor.
+
+self              = parameter merujuk pada objek yang sedang diproses.
+
+Method            = perilaku atau tindakan yang dapat dilakukan oleh objek atau kelas.
+                    Method dibagi menjadi 3:
+                    - Object Method
+                    - Static Method
+                    - Class Method
+
+my_decorator      = Dekorator ini menerima func sebagai parameternya.
+                    Dalam dekorator terdapat wrapper:
+                    wrapper() = sebagai pembungkus yang menambahkan sebelum dan sesudah dari fungsi func.
+                    return    = mengembalikan fungsi wrapper sebagai hasil.
+
+say_hello()       = menggunakan simbol @ diikuti dengan nama dekorator. cth [@my_decorator]

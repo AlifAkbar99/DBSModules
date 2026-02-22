@@ -1,0 +1,14 @@
+"""
+def func(args):
+    return ret_val
+    
+setara dengan
+
+func = lambda args : ret_val
+
+-- info --
+args = argumen
+ret_val = nilai return
+"""
+mencari_luas_persegi_panjang = lambda panjang, lebar: panjang*lebar
+print(mencari_luas_persegi_panjang(5, 10))
